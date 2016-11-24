@@ -14,7 +14,7 @@ $(function() {
             $.getJSON( "/articles", function( data ) {
                 var items = [];
                 $.each( data, function( index, val ) {
-                    items.push( "<a class='list-group-item' href='" + val.link.split("&url=")[1] + "'><h4 class='list-group-item-heading'>" + val.title.split(" - ")[0] + "</h4><p class='list-group-item-text'>" + val.title.split(" - ")[1] + "</p></a>" );
+                    items.push( "<a target='_blank' class='list-group-item' href='" + val.link.split("&url=")[1] + "'><h4 class='list-group-item-heading'>" + val.title.split(" - ")[0] + "</h4><p class='list-group-item-text'>" + val.title.split(" - ")[1] + "</p></a>" );
                 });
                 // debugging
                 console.log(items);
