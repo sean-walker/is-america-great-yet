@@ -1,7 +1,4 @@
-import os
-import re
 from flask import Flask, jsonify, render_template
-
 # lookup() function
 from helpers import lookup
 
