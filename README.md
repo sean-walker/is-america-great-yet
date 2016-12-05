@@ -1,2 +1,2 @@
 # is-america-great-yet
-Final project for CPSC 183, Law Technology &amp; Culture, Fall 2016.
+10 reasons why America is not yet great, delivered live.
